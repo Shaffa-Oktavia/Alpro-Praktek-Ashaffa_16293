@@ -35,7 +35,7 @@ void tampil() {
 }
 
 
-void deleteByValue(int nilai) {
+void hapusPoint(int nilai) {
     if (head == NULL) {
         cout << "List kosong\n";
         return;
@@ -82,7 +82,7 @@ int main()
     cout << "Masukkan nilai yang ingin dihapus: ";
     cin >> nilaiHapus;
 
-    deleteByValue(nilaiHapus);
+    hapusPoint(nilaiHapus);
 
     cout << "Setelah dihapus:\n";
     tampil();
